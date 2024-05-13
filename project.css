@@ -1,0 +1,191 @@
+.sticky-nav{
+    position: sticky;
+    top: 0;
+    background-color:#fff;
+    display: flex;
+    justify-content: space-between;
+    
+}
+.sticky-nav-icons{
+    height:9rem;
+}
+.badge{
+    /* background-color:rgb(249, 74, 103); */
+    color: black;
+    border: none;
+    font-weight: 750;
+    height: 2rem;
+    width: fit-content;
+ }
+ .sticky-nav-options{
+  margin: 2rem 6rem;
+ }
+ .nav-item1{
+    margin: 2rem;
+    background-color: transparent;
+    font-family:system-ui,sans-serif ;
+    font-size: 20px;
+  }
+  .nav-item1:hover{
+    background-color:transparent;
+    color: #c42789;
+  }
+  .main-box{
+    background-image: url("../pic.jpg");
+    height: 100vh;
+    background-size: cover;
+    background-position: center;
+    background-repeat: no-repeat;
+  }
+  .h1{
+    margin-left:400px;
+  }
+  .wc-input-group-action {
+    display: flex;
+    width: 100%;
+    height:56px;
+    max-width:75% ;
+    margin: 0 auto;
+   
+}
+.livesearch{
+  height: 50px;
+  width: 450%;
+  margin: 0 10px 0 10px;
+  color: gray;
+  border-color: rgb(253, 253, 254);
+  border-radius: 50px;
+  background-color: rgb(246, 247, 248);
+  
+}
+.livesearch:-moz-any-link:focus {
+  outline: none;
+}
+
+.wc-input-group-action .wc-btn {
+  display: flex;
+  flex-shrink: 0;
+  align-items:center;
+  justify-content:flex-end;
+  border-radius: 0 6px 6px 0;
+  background-color: transparent;
+  border-color: transparent;
+  color:rgb(219, 235, 245);
+  margin:0 20px 0 630px ;
+  cursor: pointer;
+}
+.nav-tabs {
+  display: flex;
+  margin: 24px 0;
+  padding: 0;
+  list-style: none;
+  
+}
+
+.nav-item {
+  display: block;
+  margin-right: 2px;
+  padding: 12px;
+  border-radius: 6px 6px 6px 6px;
+  font-weight: 600;
+  line-height: 1;
+  white-space: nowrap;
+}
+.nav-item:hover{
+  background-color:#c42789;
+  color:#fff;
+} 
+
+button{
+  border: 0;
+  cursor: pointer;
+  margin: 0;
+  font-family:system-ui,sans-serif;
+}
+
+.wc-paging>ul {
+    display: grid;
+    margin-left: 0;
+    margin-right: 0;
+    grid-gap: 50px;
+    grid-template-columns: repeat(auto-fill, minmax(40px, 1fr));
+    list-style: none;
+    padding: 0;
+}
+
+.wc-paging>ul>li a, .wc-paging>ul>li span {
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  line-height: inherit;
+}
+.wc-paging>ul li a {
+  background-color: rgb(186, 182, 182);
+  color:black;
+  font-weight: 300;
+  font-size: 25px;
+}
+.wc-paging>ul li a:hover {
+  background-color:#c42789;
+  color:#fff;
+  
+}
+
+.wc-paging>ul li a, .wc-paging>ul li span {
+  display: block;
+  min-height: 40px;
+  padding-left: 12px;
+  padding-right: 12px;
+  border-radius: 6px;
+  line-height: 40px;
+  text-align: center;
+  white-space: nowrap;
+}
+a {
+  color: rgba(203, 31, 137, 0.874);
+  text-decoration: none;
+}
+
+a:-webkit-any-link {
+  cursor: pointer;
+  text-decoration: none;
+}
+.h12{
+  margin-left: 500px;
+}
+.main-box1{
+  background-image: url("../women1.jpg");
+  height: 100vh;
+  background-size: cover;
+  background-position: center;
+  background-repeat: no-repeat;
+}
+.typewriter{
+  position: absolute;
+  margin-top: 25%;
+  margin-left: 7%;
+  font-size: 3rem;
+  color: transparent;
+  background-image: linear-gradient(#fff,#fff) ;
+  background-repeat: no-repeat;
+  letter-spacing: 1px;
+  font-family:system-ui,sans-serif ;
+  border-right: 5px solid;
+  width: 100%;
+  white-space: nowrap;
+  overflow: hidden;
+  -webkit-text-stroke: 1px #fff;
+  -webkit-background-clip: text;
+  background-position:-1280px 0 ;
+  animation: backcolor 3s linear infinite alternate;
+
+}
+@keyframes backcolor {
+  100%{
+    background-position: 0 0;
+  }
+}
+
+
+
+

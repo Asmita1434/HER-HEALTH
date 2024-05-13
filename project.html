@@ -1,0 +1,186 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+        <meta charset="UTF-8">
+        <meta name="viewport" content="width=device-width, initial-scale=1.0">
+        <link rel="icon" href="../her-health-favicon-color.png">
+        <title>Her Health</title>
+        <link rel="stylesheet" href="project.css">
+</head>
+
+<body>
+        <div class="main">
+                <div class="sticky-nav">
+                        <div class="sticky-nav-icons">
+                                <img src="../her-health-high-resolution-logo-transparent.png" height="145px">
+                        </div>
+                        <div class="sticky-nav-options">
+                                <button class="badge nav-item1">Home Page</button>
+                                <button class="badge nav-item1">About Us</button>
+                                <button class="badge nav-item1">News</button>
+                                <button class="badge nav-item1">Contact Us</button>
+                                <button class="badge nav-item1">Query</button>
+                        </div>
+                </div>
+                <div class="main-box"></div>
+                <br>
+                <div class="box">
+                        <h1 class="h1">Find Diseases & Treatments</h1>
+                        <form action="/search.items" method="get" autocomplete="off">
+                                <div class="wc-input-group-action">
+                                        <label>
+                                                <span class="wc-form-label-placeholder"></span>
+                                                <input type="text" id="livesearch-main" class="livesearch"
+                                                        name="searchterm"
+                                                        placeholder="Enter any disease..."
+                                                        data-autocomplete="main" data-required="1" autocapitalize="off"
+                                                        autocomplete="off" autocorrect="off">
+                                        </label>
+                                        <button type="submit" class="wc-btn">
+                                                <span class="wc-sr-only"></span>
+                                                <svg class="wc-icon ddc-icon-search" width="30" height="20"
+                                                        viewBox="0 0 24 24" aria-hidden="true" focusable="false"
+                                                        xmlns="http://www.w3.org/2000/svg">
+                                                        <path
+                                                                d="M17 15.4c2.4-3.1 2.4-7.4 0-10.5C14.1 1.1 8.7.4 4.9 3.3 1.1 6.2.4 11.6 3.3 15.4c2.9 3.8 8.3 4.5 12.1 1.6l4.8 4.8 1.6-1.6-4.8-4.8Zm-6.9 1.1c-3.5 0-6.4-2.9-6.4-6.4 0-3.5 2.9-6.4 6.4-6.4 3.5 0 6.4 2.9 6.4 6.4 0 3.5-2.9 6.4-6.4 6.4Z">
+                                                        </path>
+                                                </svg>
+                                        </button>
+                                </div>
+                        </form>
+                        <br>
+
+                </div>
+                <div class="box-tab-list">
+                        <div class="tab-list">
+                                <ul class="nav-tabs" aria-label="Browse diseases A-Z" role="tablist">
+                                        <li class="wc-tab-item" data-tab-item="1" role="presentation">
+                                                <button type="button" id="tab-1" class="nav-item " data-tab-activate="1"
+                                                        role="tab" aria-controls="tab-section-1"
+                                                        aria-selected="true">Browse Diseases</button>
+                                        </li>
+                                        <li class="wc-tab-item" data-tab-item="2" role="presentation">
+                                                <button type="button" id="tab-2" class="nav-item" data-tab-activate="2"
+                                                        role="tab" aria-controls="tab-section-2"
+                                                        aria-selected="false">Browse Treatments</button>
+                                        </li>
+
+                                </ul>
+                                <div id="tab-section-1" class="wc-tab-content" data-tab-content="1" role="tabpanel"
+                                        aria-labelledby="tab-1">
+                                        <nav class="wc-paging" aria-label="Diseases list navigation by first letter">
+                                                <ul>
+                                                        <li><a href="/alpha/a.html"
+                                                                        aria-label="Browse diseases by letter: a">A</a>
+                                                        </li>
+                                                        <li><a href="/alpha/b.html"
+                                                                        aria-label="Browse diseases by letter: b">B</a>
+                                                        </li>
+                                                        <li><a href="/alpha/c.html"
+                                                                        aria-label="Browse diseases by letter: c">C</a>
+                                                        </li>
+                                                        <li><a href="/alpha/d.html"
+                                                                        aria-label="Browse diseases by letter: d">D</a>
+                                                        </li>
+                                                        <li><a href="/alpha/e.html"
+                                                                        aria-label="Browse diseases by letter: e">E</a>
+                                                        </li>
+                                                        <li><a href="/alpha/f.html"
+                                                                        aria-label="Browse diseases by letter: f">F</a>
+                                                        </li>
+                                                        <li><a href="/alpha/g.html"
+                                                                        aria-label="Browse diseases by letter: g">G</a>
+                                                        </li>
+                                                        <li><a href="/alpha/h.html"
+                                                                        aria-label="Browse diseases by letter: h">H</a>
+                                                        </li>
+                                                        <li><a href="/alpha/i.html"
+                                                                        aria-label="Browse diseases by letter: i">I</a>
+                                                        </li>
+                                                        <li><a href="/alpha/j.html"
+                                                                        aria-label="Browse diseases by letter: j">J</a>
+                                                        </li>
+                                                        <li><a href="/alpha/k.html"
+                                                                        aria-label="Browse diseases by letter: k">K</a>
+                                                        </li>
+                                                        <li><a href="/alpha/l.html"
+                                                                        aria-label="Browse diseases by letter: l">L</a>
+                                                        </li>
+                                                        <li><a href="/alpha/m.html"
+                                                                        aria-label="Browse diseases by letter: m">M</a>
+                                                        </li>
+                                                        <li><a href="/alpha/n.html"
+                                                                        aria-label="Browse diseases by letter: n">N</a>
+                                                        </li>
+                                                        <li><a href="/alpha/o.html"
+                                                                        aria-label="Browse diseases by letter: o">O</a>
+                                                        </li>
+                                                        <li><a href="/alpha/p.html"
+                                                                        aria-label="Browse diseases by letter: p">P</a>
+                                                        </li>
+                                                        <li><a href="/alpha/q.html"
+                                                                        aria-label="Browse diseases by letter: q">Q</a>
+                                                        </li>
+                                                        <li><a href="/alpha/r.html"
+                                                                        aria-label="Browse diseases by letter: r">R</a>
+                                                        </li>
+                                                        <li><a href="/alpha/s.html"
+                                                                        aria-label="Browse diseases by letter: s">S</a>
+                                                        </li>
+                                                        <li><a href="/alpha/t.html"
+                                                                        aria-label="Browse diseases by letter: t">T</a>
+                                                        </li>
+                                                        <li><a href="/alpha/u.html"
+                                                                        aria-label="Browse diseases by letter: u">U</a>
+                                                        </li>
+                                                        <li><a href="/alpha/v.html"
+                                                                        aria-label="Browse diseases by letter: v">V</a>
+                                                        </li>
+                                                        <li><a href="/alpha/w.html"
+                                                                        aria-label="Browse diseases by letter: w">W</a>
+                                                        </li>
+                                                        <li><a href="/alpha/x.html"
+                                                                        aria-label="Browse diseases by letter: x">X</a>
+                                                        </li>
+                                                        <li><a href="/alpha/y.html"
+                                                                        aria-label="Browse diseases by letter: y">Y</a>
+                                                        </li>
+                                                        <li><a href="/alpha/z.html"
+                                                                        aria-label="Browse diseases by letter: z">Z</a>
+                                                        </li>
+
+                                                </ul>
+                                        </nav>
+                                        <br>
+                                        <p>Browse A-Z: <a href="/drug_information.html">Diseases</a>, <a
+                                                        href="/medical_conditions.html">Treatments</a></p>
+                                </div>
+                                <div id="tab-section-2" class="wc-tab-content" data-tab-content="2" role="tabpanel"
+                                        aria-labelledby="tab-2">
+                                        <nav class="wc-paging" aria-label="Condition list navigation by first letter">
+                                        </nav>
+                                        <br>
+                                        <p>See also: <a href="/care_notes.html">Care Guides</a>, <a
+                                                        href="/health-guide/">Women Health
+                                                        Guides</a></p>
+                                </div>
+                        </div>
+                </div>
+                <div>
+                        <h1 class="h12">Common Diseases </h1>
+                        <div class="box1">
+
+                        </div>
+                </div>
+                <div>
+                        <h1 class="h12">Common Query</h1>
+                </div>
+
+                <div class="main-box1">
+                        <h1 class="typewriter">Women's Health Matters <br>& We're Here to Prove It</h1>
+                </div>
+        </div>
+</body>
+
+</html>
